@@ -27,6 +27,8 @@ export default function AboutPage() {
             src="/Ma_Photo.jpeg"
             alt="Kamli Mohamed"
             className="w-full h-full object-cover"
+            width={300}
+            height={300}
           />
         </div>
 

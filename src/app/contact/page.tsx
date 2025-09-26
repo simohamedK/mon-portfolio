@@ -116,12 +116,12 @@ export default function ContactPage() {
           <div className="bg-gray-800 p-4 rounded-lg shadow-lg hover:scale-105 hover:bg-cyan-500 transition-all duration-300">
             🐙{" "}
             <a
-              href="https://github.com/tonprofil"
+              href="https://github.com/simohamedK"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-white hover:underline transition-colors duration-300"
             >
-              github.com/tonprofil
+              https://github.com/simohamedK
             </a>
           </div>
         </div>

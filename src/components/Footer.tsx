@@ -76,6 +76,8 @@ export default function Footer(): JSX.Element {
                 src="/icons/linkedin.svg"
                 alt="LinkedIn"
                 className="w-8 h-8 hover:scale-110 transition-transform"
+                width={300}
+                height={300}
               />
             </a>
             <a
@@ -87,6 +89,8 @@ export default function Footer(): JSX.Element {
                 src="/icons/github.svg"
                 alt="GitHub"
                 className="w-8 h-8 hover:scale-110 transition-transform"
+                width={300}
+                height={300}
               />
             </a>
             {/* WhatsApp direct */}
@@ -99,6 +103,8 @@ export default function Footer(): JSX.Element {
                 src="/icons/whatsapp.svg"
                 alt="WhatsApp"
                 className="w-8 h-8 hover:scale-110 transition-transform"
+                width={300}
+                height={300}
               />
             </a>
             {/* Gmail direct */}
@@ -107,6 +113,8 @@ export default function Footer(): JSX.Element {
                 src="/icons/gmail.svg"
                 alt="Gmail"
                 className="w-8 h-8 hover:scale-110 transition-transform"
+                width={300}
+                height={300}
               />
             </a>
           </div>

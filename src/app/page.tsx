@@ -82,6 +82,8 @@ export default function HomePage(): JSX.Element {
                 src={tech.icon}
                 alt={tech.name}
                 className="w-12 h-12 mx-auto transition-transform group-hover:scale-110"
+                width={300}
+                height={300}
               />
               <p className="mt-2 text-sm text-gray-300 group-hover:text-[#38bdf8]">
                 {tech.name}

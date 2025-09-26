@@ -16,6 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
+      <head>
+        <title>Kamli Mohamed - Portfolio</title>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body className="bg-gradient-to-br from-white via-blue-50 to-blue-100 text-gray-900">
         <Navbar />
         <main className="p-6">{children} </main>

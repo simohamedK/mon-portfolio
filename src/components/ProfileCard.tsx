@@ -13,6 +13,8 @@ export default function ProfileCard(): JSX.Element {
               src="/Ma_Photo.jpeg"
               alt="Kamli Mohamed"
               className="object-cover w-full h-full"
+              width={300}
+              height={300}
             />
           </div>
         </div>
