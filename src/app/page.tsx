@@ -9,7 +9,7 @@ export default function HomePage(): JSX.Element {
           Développeur Full Stack & DevOps
         </h1>
         <p className="mt-2 text-gray-300 text-sm md:text-base">
-          Passionné par le développement web, l’automatisation et les défis
+          Passionné par le développement web, l&apos;automatisation et les défis
           techniques en entreprise 🚀
         </p>
       </section>
@@ -17,17 +17,16 @@ export default function HomePage(): JSX.Element {
         <ProfileCard />
         <div className="text-center md:text-left max-w-xl">
           <h1 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
-            Salut, c’est Kamli Mohamed
+            Salut, c&apos;est Kamli Mohamed
           </h1>
           <h1 className="text-4xl  ">👋</h1>
           <p className="text-lg text-shadow-gray-700">
             Étudiant en Master 1 Expert en Informatique et Systèmes
-            d’Information à l’EPSI Paris, je recherche une alternance de 24 mois
-            en développement Full Stack et DevOps, avec un rythme de 1 semaine
-            en école et 2 semaines en entreprise.
+            d&apos;Information à l&apos;EPSI Paris, je recherche une alternance
+            de 24 mois en développement Full Stack et DevOps, avec un rythme de
+            1 semaine en école et 2 semaines en entreprise.
           </p>
 
-          {/* 🚀 Boutons dynamiques */}
           <div className="mt-6 flex flex-wrap gap-4 animate-fade-slide">
             <a
               href="/contact"
@@ -105,7 +104,7 @@ export default function HomePage(): JSX.Element {
           ].map((step) => (
             <div
               key={step.label}
-              className={`rounded-xl p-4 shadow-lg ${step.color} hover:scale-105 transition-transform duration-300`}
+              className={`rounded-xl p-4 shadow-lg hover:scale-105 transition-transform duration-300`}
             >
               <div className="text-3xl mb-2">{step.icon}</div>
               <p className="text-sm font-semibold">{step.label}</p>
