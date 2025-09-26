@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { JSX } from "react";
 
 export default function ProfileCard(): JSX.Element {
@@ -8,7 +9,7 @@ export default function ProfileCard(): JSX.Element {
       <div className="bg-[#0f172a] text-white p-6 rounded-2xl shadow-2xl w-full max-w-sm text-center border border-gray-700">
         <div className="flex justify-center mb-4">
           <div className="w-44 h-44 rounded-full border-4 border-[#38bdf8] shadow-lg overflow-hidden">
-            <img
+            <Image
               src="/Ma_Photo.jpeg"
               alt="Kamli Mohamed"
               className="object-cover w-full h-full"

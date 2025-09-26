@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { JSX } from "react";
 
@@ -71,7 +72,7 @@ export default function Footer(): JSX.Element {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
+              <Image
                 src="/icons/linkedin.svg"
                 alt="LinkedIn"
                 className="w-8 h-8 hover:scale-110 transition-transform"
@@ -82,7 +83,7 @@ export default function Footer(): JSX.Element {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
+              <Image
                 src="/icons/github.svg"
                 alt="GitHub"
                 className="w-8 h-8 hover:scale-110 transition-transform"
@@ -94,7 +95,7 @@ export default function Footer(): JSX.Element {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
+              <Image
                 src="/icons/whatsapp.svg"
                 alt="WhatsApp"
                 className="w-8 h-8 hover:scale-110 transition-transform"
@@ -102,7 +103,7 @@ export default function Footer(): JSX.Element {
             </a>
             {/* Gmail direct */}
             <a href="mailto:Kamlimohamed.fr@gmail.com">
-              <img
+              <Image
                 src="/icons/gmail.svg"
                 alt="Gmail"
                 className="w-8 h-8 hover:scale-110 transition-transform"

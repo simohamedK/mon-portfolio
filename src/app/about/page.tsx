@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useEffect } from "react";
 
 export default function AboutPage() {
@@ -22,7 +23,7 @@ export default function AboutPage() {
       {/* Hero */}
       <section className="text-center mb-12 fade-slide">
         <div className="w-48 h-48 mx-auto rounded-full overflow-hidden border-4 border-cyan-400 shadow-lg">
-          <img
+          <Image
             src="/Ma_Photo.jpeg"
             alt="Kamli Mohamed"
             className="w-full h-full object-cover"
@@ -63,11 +64,11 @@ export default function AboutPage() {
       <section className="max-w-4xl mx-auto mb-12 fade-slide">
         <h2 className="text-2xl font-semibold mb-4 text-cyan-400">Profil</h2>
         <p className="text-gray-300 leading-relaxed">
-          Étudiant en Master 1 Expert en Informatique et Systèmes d'information
-          à l'EPSI Paris, je recherche une alternance de 24 mois en
-          développement Full Stack & DevOps. Passionné par la création de
-          solutions innovantes, je combine compétences techniques et esprit
-          d'équipe pour contribuer à des projets ambitieux.
+          Étudiant en Master 1 Expert en Informatique et Systèmes
+          d&apos;information à l&apos;EPSI Paris, je recherche une alternance de
+          24 mois en développement Full Stack & DevOps. Passionné par la
+          création de solutions innovantes, je combine compétences techniques et
+          esprit d&apos;équipe pour contribuer à des projets ambitieux.
         </p>
       </section>
 
@@ -219,7 +220,7 @@ export default function AboutPage() {
             },
             {
               date: "2024",
-              title: "Ingénierie des Systèmes d'information",
+              title: "Ingénierie des Systèmes d&apos;information",
               school: "ESISA",
             },
             { date: "2023", title: "Ingénierie logicielle", school: "ESISA" },
@@ -238,11 +239,11 @@ export default function AboutPage() {
       {/* Centres d'intérêt */}
       <section className="max-w-4xl mx-auto mb-12 fade-slide">
         <h2 className="text-2xl font-semibold mb-4 text-cyan-400">
-          Centres d'intérêt
+          Centres d&apos;intérêt
         </h2>
         <p className="text-gray-300 mb-4">
-          En tant que développeur Full Stack & DevOps, je m'intéresse à tout ce
-          qui peut enrichir mes compétences techniques et ma créativité.
+          En tant que développeur Full Stack & DevOps, je m&apos;intéresse à
+          tout ce qui peut enrichir mes compétences techniques et ma créativité.
         </p>
         <div className="flex flex-wrap gap-3">
           {[

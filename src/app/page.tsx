@@ -1,5 +1,6 @@
 import ProfileCard from "@/components/ProfileCard";
 import { JSX } from "react";
+import Image from "next/image";
 
 export default function HomePage(): JSX.Element {
   return (
@@ -77,7 +78,7 @@ export default function HomePage(): JSX.Element {
             { name: "Spring Boot", icon: "/icons/spring.svg" },
           ].map((tech) => (
             <div key={tech.name} className="group">
-              <img
+              <Image
                 src={tech.icon}
                 alt={tech.name}
                 className="w-12 h-12 mx-auto transition-transform group-hover:scale-110"
