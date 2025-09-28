@@ -73,7 +73,7 @@ export default function HomePage(): JSX.Element {
             { name: "Docker", icon: "/icons/Docker.svg" },
             { name: "Kubernetes", icon: "/icons/Kubernetes.svg" },
             { name: "MySQL", icon: "/icons/MySQL.svg" },
-            { name: "GitLab CI/CD", icon: "/icons/Gitlab.svg" },
+            { name: "GitLab CI/CD", icon: "/icons/GitLab.svg" },
             { name: "CSharp", icon: "/icons/CSharp.svg" },
             { name: "Spring Boot", icon: "/icons/Spring.svg" },
           ].map((tech) => (

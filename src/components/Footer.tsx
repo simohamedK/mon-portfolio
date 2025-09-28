@@ -73,7 +73,7 @@ export default function Footer(): JSX.Element {
               rel="noopener noreferrer"
             >
               <Image
-                src="/icons/Linkedin.svg"
+                src="/icons/LinkedIn.svg"
                 alt="LinkedIn"
                 className="w-8 h-8 hover:scale-110 transition-transform"
                 width={300}
