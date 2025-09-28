@@ -64,18 +64,18 @@ export default function HomePage(): JSX.Element {
         </h2>
         <div className="grid grid-cols-3 md:grid-cols-6 gap-6 justify-center items-center">
           {[
-            { name: "React", icon: "/icons/react.svg" },
-            { name: "Angular", icon: "/icons/angular.svg" },
-            { name: "Java", icon: "/icons/java.svg" },
-            { name: "Python", icon: "/icons/python.svg" },
+            { name: "React", icon: "/icons/React.svg" },
+            { name: "Angular", icon: "/icons/Angular.svg" },
+            { name: "Java", icon: "/icons/Java.svg" },
+            { name: "Python", icon: "/icons/Python.svg" },
             { name: ".Net", icon: "/icons/NET_core.svg" },
-            { name: "Node.js", icon: "/icons/node.js.svg" },
-            { name: "Docker", icon: "/icons/docker.svg" },
-            { name: "Kubernetes", icon: "/icons/kubernetes.svg" },
+            { name: "Node.js", icon: "/icons/Node.js.svg" },
+            { name: "Docker", icon: "/icons/Docker.svg" },
+            { name: "Kubernetes", icon: "/icons/Kubernetes.svg" },
             { name: "MySQL", icon: "/icons/MySQL.svg" },
-            { name: "GitLab CI/CD", icon: "/icons/gitlab.svg" },
+            { name: "GitLab CI/CD", icon: "/icons/Gitlab.svg" },
             { name: "CSharp", icon: "/icons/CSharp.svg" },
-            { name: "Spring Boot", icon: "/icons/spring.svg" },
+            { name: "Spring Boot", icon: "/icons/Spring.svg" },
           ].map((tech) => (
             <div key={tech.name} className="group">
               <Image
